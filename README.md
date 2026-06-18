@@ -17,6 +17,7 @@ node capitalize.js hello    # Hello
 node capitalize.js          # (empty)
 node sum.js 1 2 3   # 6
 node sum.js         # 0
+node reverse.js hello   # olleh
 ```
 
 ## Tests
