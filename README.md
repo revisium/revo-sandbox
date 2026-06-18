@@ -12,6 +12,11 @@ node farewell.js Ada    # Goodbye, Ada!
 node farewell.js        # Goodbye, World!
 ```
 
+```sh
+node capitalize.js hello    # Hello
+node capitalize.js          # (empty)
+```
+
 ## Tests
 
 ```sh
