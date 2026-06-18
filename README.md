@@ -12,6 +12,11 @@ node farewell.js Ada    # Goodbye, Ada!
 node farewell.js        # Goodbye, World!
 ```
 
+```sh
+node sum.js 1 2 3   # 6
+node sum.js         # 0
+```
+
 ## Tests
 
 ```sh
