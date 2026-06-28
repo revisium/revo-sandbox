@@ -28,3 +28,7 @@ node min.js 3 1 2       # 1
 ```sh
 node --test
 ```
+
+## Revo MCP smoke tests
+
+Revo MCP smoke tests should use `observe_run` for bounded progress observation.
