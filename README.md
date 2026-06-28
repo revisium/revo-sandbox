@@ -28,3 +28,7 @@ node min.js 3 1 2       # 1
 ```sh
 node --test
 ```
+
+## Revo MCP smoke testing
+
+When running MCP smoke tests against this sandbox, use `observe_run` for bounded progress observation. This ensures the smoke test terminates cleanly rather than polling indefinitely — pass a reasonable timeout and handle the returned status to detect stalls early.
