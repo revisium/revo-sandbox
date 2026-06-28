@@ -20,6 +20,7 @@ node sum.js         # 0
 node reverse.js hello   # olleh
 node clamp.js 15 0 10   # 10
 node factorial.js 5     # 120
+node min.js 3 1 2       # 1
 ```
 
 ## Tests
