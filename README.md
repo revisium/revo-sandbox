@@ -31,4 +31,6 @@ node --test
 
 ## Revo MCP smoke tests
 
-Revo MCP smoke tests should use `observe_run` for bounded progress observation.
+Revo MCP smoke tests should use `wait_for_any_gate` to block until a run reaches
+the next gate or bounded progress point, then use `watch_runs` to inspect run
+progress and status.
