@@ -4,7 +4,11 @@ function range(start, end) {
   const step = first < last ? 1 : -1;
   const result = [];
 
-  for (let value = first; value !== last; value += step) {
+  for (
+    let value = first;
+    step > 0 ? value < last : value > last;
+    value += step
+  ) {
     result.push(value);
   }
 

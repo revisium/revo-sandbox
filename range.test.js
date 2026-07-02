@@ -21,3 +21,7 @@ test('range supports single-element ascending ranges', () => {
 test('range converts numeric string inputs', () => {
   assert.deepEqual(range('1', '4'), [1, 2, 3]);
 });
+
+test('range stops at fractional bounds', () => {
+  assert.deepEqual(range(1.5, 3), [1.5, 2.5]);
+});
